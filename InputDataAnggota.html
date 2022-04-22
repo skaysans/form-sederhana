@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="input-data-anggota.css" rel="stylesheet" type="text/css">
+	<title>Input Anggota Perpustakaan UBSI</title>
+</head>
+<body>
+<div class="container">
+	<form action="TampilAnggota.php" method="post">
+		<marquee id="title">Selamat Datang di Perpustakaan UBSI</marquee>
+		<hr id="line-under-title">
+
+		<table id="teks-area">
+			<tr id="nim-area">
+				<td>
+					<pre>NIM             : </pre>
+				</td>
+				<td>
+					<input class="identity" type="text" name="nim" size="25" maxlength="50"
+						   spellcheck="false" required>
+				</td>
+			</tr>
+			<tr id="name-area">
+				<td>
+					<pre>Nama            : </pre>
+				</td>
+				<td>
+					<input class="identity" type="text" name="nama" size="25" maxlength="50"
+						   spellcheck="false" required>
+				</td>
+			</tr>
+		</table>
+
+		<table id="radio-area">
+			<tr id="jenis-kelamin">
+				<td>
+					<pre>Jenis Kelamin   : </pre>
+				</td>
+				<td>
+					<label for="laki-laki">
+						<input id="laki-laki" type="radio" name="jenisKelamin" value="Laki-laki" required>Laki-laki
+					</label>
+					<label for="perempuan">
+						<input id="perempuan" type="radio" name="jenisKelamin" value="Perempuan" required>Perempuan
+					</label>
+				</td>
+			</tr>
+		</table>
+
+		<br>
+
+		<table id="alamat-area">
+			<tr>
+				<td>
+					<pre>Alamat          :</pre>
+				</td>
+				<td><textarea name="alamat" id="alamat" cols="40" rows="3"
+							  spellcheck="false"></textarea></td>
+			</tr>
+		</table>
+
+		<table id="mahasiswa">
+			<tr>
+				<td>
+					<pre id="mahasiswa-teks">Jenis Mahasiswa :</pre>
+					<select name="jenisMahasiswa" id="jenis-mahasiswa">
+						<option value="-- Pilih --">
+							-Pilih-
+						<option value="Mahasiswa UBSI">
+							Mahasiswa UBSI
+						<option value="Mahasiswa di luar UBSI">
+							Mahasiswa di luar UBSI
+					</select>
+				</td>
+			</tr>
+		</table>
+
+		<button id="submit" type="submit">Kirim</button>
+		<button id="reset" type="reset">Batal</button>
+	</form>
+</div>
+</body>
+</html>

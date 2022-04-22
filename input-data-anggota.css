@@ -1,0 +1,92 @@
+body {
+    font-family: "Fira Code", -apple-system, sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    height: 550px;
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    border-radius: 20px;
+    margin: 34px auto 0 auto;
+    padding: 50px;
+    width: 600px;
+}
+
+[type="radio"] {
+    margin: 0 30px 0 50px;
+}
+
+
+#alamat {
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+#alamat-area {
+    display: inline-block;
+}
+
+#jenis-kelamin {
+    display: inline-block;
+}
+
+#jenis-mahasiswa {
+    border-radius: 6px;
+    padding: 7px;
+    margin-left: 10px;
+}
+
+#mahasiswa {
+    display: inline-block;
+}
+
+#mahasiswa-teks {
+    display: inline-block;
+}
+
+#line-under-title {
+    margin-bottom: 10px;
+}
+
+#reset:hover {
+    background-image: radial-gradient(circle 400px at 6.8% 8.3%, rgba(255, 244, 169, 1) 0%, rgba(255, 244, 234, 1) 100.2%);
+}
+
+#submit {
+    margin: 10px 0;
+    transition: all 0.5s;
+}
+
+#submit:hover {
+    background-image: radial-gradient(circle 400px at 6.8% 8.3%, rgba(255, 244, 169, 1) 0%, rgba(255, 244, 234, 1) 100.2%);
+}
+
+#title {
+    font-size: 60px;
+    font-weight: 540;
+}
+
+.identity {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 8px;
+    width: 390px;
+}
+
+button {
+    font-size: 20px;
+    font-weight: 100;
+    background-image: linear-gradient(white, lemonchiffon);
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+textarea {
+    display: inline-block;
+}
